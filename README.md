@@ -1,2 +1,2 @@
 # WJProgressView
-一个iOS的环形进度条
+一个Objective-C编写的iOS的环形进度条
