@@ -22,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.progress1 = [[WJProgressView alloc]initWithFrame:CGRectMake(50, 50, 100, 100)];
+    self.progress1 = [[WJProgressView alloc]initWithFrame:CGRectMake(50, 100, 100, 100)];
     self.progress1.direction = WJProgressDirectionCounterClockwise;
     self.progress1.startPosition = WJProgressStartPositionTop;
     self.progress1.progress = 0.0;
@@ -48,9 +48,6 @@
     }
 }
 
-- (IBAction)clickBtn:(id)sender {
-    
-}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
