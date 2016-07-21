@@ -44,6 +44,11 @@
     self.ringBackLayer = [[CALayer alloc]init];
     self.ringLayer = [[CALayer alloc]init];
     self.centerLayer = [[CALayer alloc]init];
+    
+    self.ringBackLayer.shouldRasterize = YES;
+    self.ringLayer.shouldRasterize = YES;
+    self.centerLayer.shouldRasterize = YES;
+    
     [self.layer addSublayer:self.ringBackLayer];
     [self.layer addSublayer:self.ringLayer];
     [self.layer addSublayer:self.centerLayer];
